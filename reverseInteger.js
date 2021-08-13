@@ -1,0 +1,8 @@
+/**
+ * @param {number} x
+ * @return {number}
+ */
+var reverse = function(num) {
+    let reversed = parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
+    return (reversed <= 0x7fffffff && reversed >= -0x80000000) ? reversed : 0;      
+};
