@@ -1,6 +1,7 @@
 /**
  * @param {number} x
  * @return {number}
+ * Constrain -2power(31) <= x <= 2power(31) - 1
  */
 var reverse = function(num) {
     let reversed = parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
