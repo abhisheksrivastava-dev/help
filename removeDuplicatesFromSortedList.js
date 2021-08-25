@@ -1,3 +1,4 @@
+//https://javascript.plainenglish.io/removing-duplicates-from-a-sorted-linked-list-c9e0e62d2c96
 var deleteDuplicates = function(head) {
     // sets current node to be head of list
     let current = head
